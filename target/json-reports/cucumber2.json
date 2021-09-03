@@ -1,0 +1,56 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-31T19:17:41.997Z",
+        "line": 4,
+        "name": "Kullanici Koala Resort Hotel tablosundan price verilerini alir",
+        "description": "",
+        "id": "db-with-dbutils;kullanici-koala-resort-hotel-tablosundan-price-verilerini-alir",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user DBU Koala Resort Hotels veritabanina baglanir",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user DBU \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user DBU \"Price\" sutunundaki verileri okur",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@readDBU"
+          }
+        ]
+      }
+    ],
+    "name": "Db With DBUtils",
+    "description": "",
+    "id": "db-with-dbutils",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1014_DbWithDBUtils.feature",
+    "tags": []
+  }
+]

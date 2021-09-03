@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="15" time="149.257">
+    <testcase classname="US1001_amazon arama" name="TC01_Amazon Arama Yapma" time="19.537">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
+Given kullanici amazon sayfasina gider......................................passed
+And tea pot icin arama yapar................................................passed
+Then sonuclarin tea pot icerdigini test eder................................passed
+Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002_Amazon Background Kullanma" name="TC02_IPhone arama testi" time="9.559">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002_Amazon Background Kullanma" name="TC03_Tea pot arama testi" time="9.914">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And tea pot icin arama yapar................................................passed
+Then sonuclarin tea pot icerdigini test eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002_Amazon Background Kullanma" name="TC04_Flower arama testi" time="11.558">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC07_Amazon iPhone arama parametreleri" time="9.568">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "iPhone" icin arama yapar..............................................passed
+Then sonuclarin "iPhone" icerdigini test eder...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC08_Amazon tea pot arama parametreli" time="6.31">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "tea pot" icin arama yapar.............................................passed
+Then sonuclarin "tea pot" icerdigini test eder..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC09_Amazon flower arama parametreli" time="11.15">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "flower" icin arama yapar..............................................passed
+Then sonuclarin "flower" icerdigini test eder...............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama" time="9.978">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "armut" icin arama yapar...............................................passed
+And sonuclarin "armut" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama 2" time="8.947">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "kavun" icin arama yapar...............................................passed
+And sonuclarin "kavun" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama 3" time="8.983">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "karpuz" icin arama yapar..............................................passed
+And sonuclarin "karpuz" icerdigini test eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama 4" time="8.851">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "kiraz" icin arama yapar...............................................passed
+And sonuclarin "kiraz" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama 5" time="9.197">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "visne" icin arama yapar...............................................passed
+And sonuclarin "visne" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama 6" time="8.456">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "erik" icin arama yapar................................................passed
+And sonuclarin "erik" icerdigini test eder..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenario Outline" name="TC10_Amazon Coklu Arama 7" time="8.789">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "avakado" icin arama yapar.............................................passed
+And sonuclarin "avakado" icerdigini test eder...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1011 Amazon Arama" name="TC15_Kullanici Amazonda Mehmet aratir" time="8.122">
+        <failure message="element click intercepted: Element &lt;a href=&quot;/international-sales-offers/b/?ie=UTF8&amp;amp;node=15529609011&amp;amp;ref_=nav_cs_gb_intl_52df97a2eee74206a8343034e85cd058&quot; class=&quot;nav-a  &quot; tabindex=&quot;0&quot; data-csa-c-type=&quot;link&quot; data-csa-c-slot-id=&quot;nav_cs_0&quot; data-csa-c-content-id=&quot;nav_cs_gb_intl_52df97a2eee74206a8343034e85cd058&quot; data-csa-c-id=&quot;4gjem-b8psta-18oqjf-jncmct&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 79). Other element would receive the click: &lt;div data-toaster-blocking=&quot;0&quot; data-toaster-csrftoken=&quot;gJUm5Jy1pg0u+wS4txjdE5TschBLLqxxPclkCKAAAAAMAAAAAGDUa0JyYXcAAAAA&quot; data-toaster-slot=&quot;DEFAULT&quot; data-toaster-type=&quot;AIS_INGRESS&quot; aria-describedby=&quot;glow-toaster-body&quot; aria-labelledby=&quot;glow-toaster-title&quot; class=&quot;a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout&quot; role=&quot;alertdialog&quot; style=&quot;&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=91.0.4472.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-QUM12DQ', ip: '192.168.0.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 969ce3f1c32dc63fa4d2bc164e37d625" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given kullanici "amazon_url" sayfasina gider................................passed
+Then Today's deals sekmesine tiklar.........................................failed
+And Todays deals sayfasinda "Mehmet" icin arama yapar.......................skipped
+Then ilk ilan isminde "Mehmet" gectigini test eder..........................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/international-sales-offers/b/?ie=UTF8&amp;node=15529609011&amp;ref_=nav_cs_gb_intl_52df97a2eee74206a8343034e85cd058" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_0" data-csa-c-content-id="nav_cs_gb_intl_52df97a2eee74206a8343034e85cd058" data-csa-c-id="4gjem-b8psta-18oqjf-jncmct">...</a> is not clickable at point (130, 79). Other element would receive the click: <div data-toaster-blocking="0" data-toaster-csrftoken="gJUm5Jy1pg0u+wS4txjdE5TschBLLqxxPclkCKAAAAAMAAAAAGDUa0JyYXcAAAAA" data-toaster-slot="DEFAULT" data-toaster-type="AIS_INGRESS" aria-describedby="glow-toaster-body" aria-labelledby="glow-toaster-title" class="a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout" role="alertdialog" style="" tabindex="-1">...</div>
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QUM12DQ', ip: '192.168.0.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 969ce3f1c32dc63fa4d2bc164e37d625
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at stepdefinitions.AmazonStepDefinitions.today_s_deals_sekmesine_tiklar(AmazonStepDefinitions.java:81)
+	at ✽.Today's deals sekmesine tiklar(file:///C:/Users/burak/IdeaProjects/com.batch13Cucumber/src/test/resources/features/US1011_Amazon_Arama.feature:9)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

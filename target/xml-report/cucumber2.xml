@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.249">
+    <testcase classname="Db With DBUtils" name="Kullanici Koala Resort Hotel tablosundan price verilerini alir" time="0.062">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user DBU Koala Resort Hotels veritabanina baglanir....................undefined
+And user DBU "tHOTELROOM" tablosundaki "Price" verilerini alir..............skipped
+And user DBU "Price" sutunundaki verileri okur..............................skipped
+]]></failure>
+    </testcase>
+</testsuite>
